@@ -4,7 +4,7 @@
   "description": "Testing RESTful APIs performance, using AutoCannon",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "ts-node index.ts"
   },
   "keywords": [],
   "author": "",
