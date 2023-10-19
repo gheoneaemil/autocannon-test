@@ -17,6 +17,8 @@ app.get('/heavier', (_: Request, res: Response) => {
     for ( let  i = 0 , l = totalRouteWeigth ; i < l ; ++i ) {
         output.push(i);
     }
+    ++totalRequests;
+    console.log(totalRequests);
     return res.status(200).json({ output: output }).end();
 });
 

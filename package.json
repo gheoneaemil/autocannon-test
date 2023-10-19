@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "ts-node index.ts",
-    "start-server": "ts-node server.ts"
+    "start-server": "pm2 -i max start ts-node -- server.ts"
   },
   "keywords": [],
   "author": "",

@@ -123,10 +123,9 @@ autocannon.track(instance);
 
 
 autocannon({
-    url: 'http://localhost:3000/',
-    connections: 1,
-    duration: 2,
-    workers: 8, 
-    amount: 100, 
-    latency: true
+    url: 'http://localhost:3000/heavier',
+    connections: 1000,
+    duration: 10,
+    workers: 10, 
+    amount: 10000
 }, console.log);
